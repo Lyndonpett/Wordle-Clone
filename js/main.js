@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
           popUpHandler('Well done!');
         }
 
-        if (guessedWords.length === 6) {
+        if (guessedWords.length === 6 && currentWord !== word) {
           popUpHandler(word);
         }
 
