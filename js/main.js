@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function handleSubmitWord() {
     const currentWordArr = getCurrentWordArray();
     if (currentWordArr.length !== 5) {
-      popUpHandler('Dumbass');
+      popUpHandler('✨Dumbass✨');
       return;
     }
 
