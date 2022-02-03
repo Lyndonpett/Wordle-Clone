@@ -102,3 +102,45 @@ header {
 .spacer-half {
     flex-grow: 0.5;
 }
+
+#alertbox-container {
+    position: absolute;
+    left: 50%;
+    top: 16.5%;
+    transform: translate(-50%, -50%);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.spinBabySpin {
+    animation: spin 2s ease-in-out 5;
+}
+
+.alertbox {
+    border: 2px solid rgb(58, 58, 60);
+    width: 135px;
+    height: 50px;
+    font-size: 2;
+    color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 58, 60);
+    border-radius: 5px;
+}
+
+#string {
+    font-size: 2;
+    color: gainsboro;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

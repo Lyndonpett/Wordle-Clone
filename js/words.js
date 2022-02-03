@@ -1,4 +1,4 @@
-const wordleWordList = [
+const wordList = [
   'aback',
   'abase',
   'abate',
@@ -2315,4 +2315,3 @@ const wordleWordList = [
   'zesty',
   'zonal'
 ];
-export { wordleWordList };
